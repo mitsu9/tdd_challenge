@@ -22,3 +22,14 @@ python -m test.run test/sample.py
 - 副作用とテスト：DI (Dependency Injection) のサンプル
     - [di_sample.py](di_sample.py)
     - [test/di_sample.py](./test/di_sample.py)
+
+
+# 環境構築メモ
+pyenvでよしなに
+
+```
+$ pyenv install 3.6.5
+$ pyenv local 3.6.5
+$ python -V
+Python 3.6.5
+```
